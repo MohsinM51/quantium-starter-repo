@@ -4,8 +4,8 @@ import csv
 data0 = pd.read_csv('/Users/mohsin/Desktop/Computers/pythonProject/quantium-starter-repo/data/daily_sales_data_0.csv')
 data1 = pd.read_csv('/Users/mohsin/Desktop/Computers/pythonProject/quantium-starter-repo/data/daily_sales_data_1.csv')
 data2 = pd.read_csv('/Users/mohsin/Desktop/Computers/pythonProject/quantium-starter-repo/data/daily_sales_data_2.csv')
-merged_data = pd.read_csv('/Users/mohsin/Desktop/Computers/pythonProject/quantium-starter-repo/code/merged_data.csv')
-product_pink_morsels = pd.read_csv('/Users/mohsin/Desktop/Computers/pythonProject/quantium-starter-repo/code/product_pink_morsels.csv')
+merged_data = pd.read_csv('/data filter/merged_data.csv')
+product_pink_morsels = pd.read_csv('/data filter/product_pink_morsels.csv')
 pink_morsel_data = pd.read_csv('/dash app for analysis/pink_morsel_data.csv')
 
 # product_pink_morsels["price"] = product_pink_morsels["price"].str[1:]     deletes dollar sign from price
