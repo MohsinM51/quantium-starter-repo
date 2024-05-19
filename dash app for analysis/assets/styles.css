@@ -10,6 +10,25 @@ body {
 
 h1 {
     text-align: center;
-    color: #FFF4F2;
-    font-size:3em ;
+    color: lightpink;
+    font-size:3.5em ;
+}
+
+#radio-items{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 1.5em;
+    accent-color: #297373;
+
+}
+#pink-morsel-graph{
+    height: 50em
+}
+
+#Pink-Morsel{
+    text-align: center
 }
