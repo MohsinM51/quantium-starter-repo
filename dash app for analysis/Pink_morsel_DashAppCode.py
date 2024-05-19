@@ -14,7 +14,7 @@ app = Dash(__name__)
 # Defining layout of Dash app
 app.layout = html.Div(className='container',  # Apply a CSS class named 'container' to the main Div
                       children=[
-                          html.H1(children='Pink Morsel Data', style={'text-align': 'center'}),  # Text content of the H1 element
+                          html.H1(children='Pink Morsel Sales', style={'text-align': 'center'}),  # Text content of the H1 element
                           dcc.RadioItems(
                               id='radio-items',
                               options=[
