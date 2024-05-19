@@ -1,0 +1,15 @@
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: lightpink;
+    font-size:3em ;
+}
